@@ -1,0 +1,416 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column; /* Stack containers vertically */
+  justify-content: flex-start; /* Align containers at the start (top) */
+  align-items: center;
+  background-color: rgb(246, 239, 239);
+  height: 140rem;
+}
+
+.FirstContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  width: 100rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+.Logo1 {
+  width: 6rem;
+  height: 3rem;
+  margin-right: 110px; 
+  margin-top: 0.5rem;
+  
+}
+.MenuText {
+  font-size:1.5rem;
+  margin-top: .9rem;
+  margin-right: 10px; 
+}
+
+.SearchBar {
+  width: 750px; /* Set the width of the rectangle */
+  height: 30px;
+  margin-top: 0.7rem;
+  margin-left: 180px;
+  border-radius: 9px;
+  border-color: black;
+}
+
+.SecondContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  width: 100rem;
+  height: 4rem;
+  margin-top: 0.1rem;
+  flex-direction: row;
+}
+.tsi-1{
+  display: flex;
+    flex-direction: row;
+    margin-top: 0.9rem;
+    justify-content: space-evenly;
+}
+.tsi-2{
+  display: flex;
+    flex-direction: row;
+    margin-top: 0.9rem;
+    justify-content: space-evenly;
+}
+
+.tsi-3{
+  display: flex;
+    flex-direction: row;
+    margin-top: 0.9rem;
+    justify-content: space-evenly;
+}
+.tsi-4{
+  display: flex;
+    flex-direction: row;
+    margin-top: 0.9rem;
+    justify-content: space-evenly;
+}
+.tsi-5{
+  display: flex;
+    flex-direction: row;
+    margin-top: 0.9rem;
+    justify-content: space-evenly;
+}
+.thirdContainer {
+  display: grid;
+ 
+grid-template-columns: 50rem 50rem;
+
+  background-color: white;
+  width: 100rem;
+  height: 25rem;
+  margin-top: 1rem;
+  
+}
+
+.inner1-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color:skyblue;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 1rem;
+  margin-left:14rem;
+}
+.InnerLarge-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color:pink;
+  width: 40rem;
+  height: 22rem;
+  margin-top: 1rem;
+  margin-right:16rem;
+}
+.inner2-container{
+  width: 20rem;
+  height: 10rem;
+  background-color:skyblue;
+  width: 20rem;
+  margin-left:14rem;
+  margin-top: -10rem;
+}
+.FourthContainer
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  width: 100rem;
+  height: 35rem;
+  margin-top: 0.1rem;
+}
+.Fourthcontainer-Heading{
+       display: flex;
+       justify-content: flex-start;
+       align-items: flex-start;
+       font-weight: bold;
+       font-size: 25px;
+}
+.FifthContainer{
+  display: inline-block;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  width: 98rem;
+  height: 20rem;
+  margin-top: 0.1rem;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.FifthContainer::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.Fifthcontainer-Heading{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 25px;
+}
+.box {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20rem; /* Adjust width as needed */
+  height: 12rem; /* Adjust height as needed */
+  background-color: #ccc; /* Adjust background color as needed */
+  margin-right: 300px; /* Adjust spacing between boxes */
+  border-radius: 12px;
+}
+
+.SixContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  width: 100rem;
+  height: 25rem;
+  margin-top: 0.1rem;
+}
+.Sixcontainer-Heading{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 25px;
+}
+.LastContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color:#031828;
+  width: 100rem;
+  height: 23rem;
+  margin-top: 1rem;
+}
+.Las {
+ color: beige;
+
+ font-weight: bold;
+}
+
+.bo {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  color: blue;
+  text-decoration: none;
+}
+.bo:hover {
+  color: red;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.form_container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 40px 50px 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+    0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+    0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  margin-left: 560px;
+}
+
+.logo_container {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(180deg, rgba(248, 248, 248, 0) 50%, #F8F8F888 100%);
+  border: 1px solid #F7F7F8;
+  filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  border-radius: 11px;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #212121;
+}
+
+.subtitle {
+  font-size: 0.725rem;
+  max-width: 80%;
+  text-align: center;
+  line-height: 1.1rem;
+  color: #8B8E98
+}
+
+.input_container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 9px;
+}
+
+.input_label {
+  font-size: 0.75rem;
+  color: #8B8E98;
+  font-weight: 600;
+}
+
+.input_field {
+  width: auto;
+  height: 40px;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
+
+.sign-in_btn {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: #115DFC;
+  border-radius: 7px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sign-in_ggl {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 7px;
+  outline: none;
+  color: #242424;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  cursor: pointer;
+}
+
+.sign-in_apl {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #212121;
+  border-radius: 7px;
+  outline: none;
+  color: #ffffff;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  cursor: pointer;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #8B8E98;
+}
+
+.separator .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #e8e8e8;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #8B8E98;
+  text-decoration: underline;
+}
