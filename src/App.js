@@ -7,6 +7,15 @@ import food from "./Assets/Images/food.png";
 import mobile from "./Assets/Images/mobile-phone.png";
 import home from "./Assets/Images/responsive.png";
 import elct from "./Assets/Images/shoe.png";
+import boy from "./Assets/Images/image 24.png";
+import cap from "./Assets/Images/image 25.png";
+import shoes from "./Assets/Images/image 26.png";
+import heater from "./Assets/Images/image 27.png";
+import bla from "./Assets/Images/Aarav Enterprises GUITAR EXCELLENT.png";
+import girl from "./Assets/Images/image 15.png";
+import leaf from "./Assets/Images/image 16.png";
+import aa from "./Assets/Images/image 17.png";
+import sugar from "./Assets/Images/image 18.png";
 
 
 function App() {
@@ -65,46 +74,84 @@ function App() {
         <div className="inner2-container"></div>
       </div>
       <div className="FourthContainer">
-        <p className="Fourthcontainer-Heading">Featured Prdouct</p>
+       {/* <p className="Fourthcontainer-Heading">Featured Prdouct</p>*/}
+        <div className="b1"></div>
+        <div className="b22"></div>
+        <div className="b3"></div>
+        <div className="b4"></div>
+        <div className="b2"></div>
+        
       </div>
       <div className="FifthContainer">
         <p className="Fifthcontainer-Heading">View Past Product</p>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
+        <div className="boxx">
+        <img src={cap} className="box-Image1"></img>
+        </div>
+        <div className="boxx">
+        <img src={boy} className="box-Image1"></img>
+      
+          <p className="box-Text1">Men Striped Padded Jacket</p>
+          <p>$29</p>
+        </div>
+        <div className="boxx">
+        <img src={shoes} className="box-Image1"></img>
+        <p className="box-Text1">Men Striped Padded Jacket</p>
+          <p>$90</p>
+        </div>
+        <div className="boxx">
+        <img src={heater} className="box-Image1"></img>
+        <p className="box-Text1">Men Striped Padded Jacket</p>
+          <p>$200</p>
+        </div>
+        <div className="boxx">
+        <img src={bla} className="box-Image1"></img>
+        <p className="box-Text1">Men Striped Padded Jacket</p>
+          <p>$210</p>
+        </div>
       </div>
       <div className="SixContainer">
-        <p className="Sixcontainer-Heading">Shop By catergories</p>
+        <p className="SixContainer-Heading">View Past Product</p>
+        <div className="Six-boxx">
+        <img src={girl} className="box-Image15"></img>
+        </div>
+        <div className="Six-boxx">
+        <img src={leaf} className="box-Image15"></img>
+        </div>
+        <div className="Six-boxx">
+        <img src={sugar} className="box-Image15"></img>
+        </div>
+        <div className="Six-boxx">
+        <img src={aa} className="box-Image15"></img>
+        </div>
       </div>
+    
       <div className="LastContainer">
         <div className="Las">
           <ul>ABOUT</ul>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
+          <Link to="/path" className="bo">Contact us</Link>
+          <Link to="/path" className="bo">About Us</Link>
+          <Link to="/path" className="bo">Carrer</Link>
+          <Link to="/path" className="bo">Flipkart</Link>
         </div>
         <div className="Las">
           <ul>Help</ul>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
+          <Link to="/path" className="bo">Payment</Link>
+          <Link to="/path" className="bo">FAO</Link>
+          <Link to="/path" className="bo">Shipping</Link>
+          <Link to="/path" className="bo">Return</Link>
         </div>
         <div className="Las">
           <ul>Social</ul>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
+          <Link to="/path" className="bo">FaceBook</Link>
+          <Link to="/path" className="bo">Youtube</Link>
+          <Link to="/path" className="bo">Twitter</Link>
           <Link to="/path" className="bo">Click me</Link>
         </div>
         <div className="Las">
           <ul>Policy</ul>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
-          <Link to="/path" className="bo">Click me</Link>
+          <Link to="/path" className="bo">Return Ploicy</Link>
+          <Link to="/path" className="bo">Terms of Use</Link>
+          <Link to="/path" className="bo">Security</Link>
           <Link to="/path" className="bo">Click me</Link>
         </div>
       </div>

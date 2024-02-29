@@ -121,20 +121,55 @@ grid-template-columns: 50rem 50rem;
 }
 .FourthContainer
 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns:30rem 30rem 30rem;
+  place-items:center;
   background-color: white;
   width: 100rem;
   height: 35rem;
   margin-top: 0.1rem;
-}
-.Fourthcontainer-Heading{
+} 
+   /* .Fourthcontainer-Heading{
        display: flex;
        justify-content: flex-start;
        align-items: flex-start;
        font-weight: bold;
        font-size: 25px;
+     }*/
+.b1{
+  width:40%;
+  height:80%;
+  border-radius: 30px;
+  background-color:#FCF8CA;
+  margin-left: 202%;
+}
+.b22{
+  width:40%;
+  height:80%;
+  border-radius: 30px;
+  background-color:#FCF8CA;
+  margin-left: 113%;
+}
+.b3{
+  width:40%;
+  height:80%;
+  border-radius: 30px;
+  background-color:#FCF8CA;
+  margin-left: 73%;
+}
+.b4{
+  width:40%;
+  height:80%;
+  border-radius: 30px;
+  background-color:#FCF8CA;
+  margin-left: 202%;
+}
+.b2 {
+  width:120%;
+  height:80%;
+  background-color: #DDEBFF;
+  border-radius: 30px;
+  margin-left: 200%;
 }
 .FifthContainer{
   display: inline-block;
@@ -147,6 +182,7 @@ grid-template-columns: 50rem 50rem;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  vertical-align: top;
 }
 
 .FifthContainer::-webkit-scrollbar {
@@ -159,33 +195,81 @@ grid-template-columns: 50rem 50rem;
   font-weight: bold;
   font-size: 25px;
 }
-.box {
+.boxx {
   display: inline-block;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   width: 20rem; /* Adjust width as needed */
-  height: 12rem; /* Adjust height as needed */
-  background-color: #ccc; /* Adjust background color as needed */
-  margin-right: 300px; /* Adjust spacing between boxes */
+  height: 15rem; /* Adjust height as needed */
+  background-color:#F3ECD6; /* Adjust background color as needed */
+  margin-right: 300px;
+  margin-bottom: 20px; /* Adjust spacing between boxes */
   border-radius: 12px;
+
+}
+.box-Text1{
+  font-weight: Medium;
+  display: flex;
+  justify-content: center;
+;
 }
 
-.SixContainer{
+.box-Image1{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-left:90px ;
+  object-fit: cover;
+}
+  /*   SIX CONTIANER START */
+
+.SixContainer{
+  display: inline-block;
   justify-content: space-evenly;
   align-items: flex-start;
   background-color: white;
-  width: 100rem;
+  width: 98rem;
   height: 25rem;
   margin-top: 0.1rem;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  vertical-align: top;
+
 }
-.Sixcontainer-Heading{
+.SixContainer::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.SixContainer-Heading{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   font-weight: bold;
   font-size: 25px;
 }
+.Six-boxx {
+  display: inline-block;
+  justify-content: center;
+  align-items:center;
+  width: 20rem; /* Adjust width as needed */
+  height: 18rem; /* Adjust height as needed */
+  background-color:#F3ECD6; /* Adjust background color as needed */
+  margin-right: 300px;
+  margin-bottom: 20px; /* Adjust spacing between boxes */
+  border-radius: 12px;
+
+}
+.box-Image15 {
+  width: 100%; /* Make the image fill the container horizontally */
+  height: 100%; /* Make the image fill the container vertically */
+  object-fit: cover;
+ 
+}
+
+ /*   SIX CONTIANER OVER */
+
+
 .LastContainer {
   display: flex;
   justify-content: space-evenly;
