@@ -1,4 +1,5 @@
 import React from "react";
+import  { useState } from 'react';
 import "./App.css";
 import { Link } from 'react-router-dom';
 import flipkart from "./Assets/Images/Flipkart-logo 1.png";
@@ -16,9 +17,22 @@ import girl from "./Assets/Images/image 15.png";
 import leaf from "./Assets/Images/image 16.png";
 import aa from "./Assets/Images/image 17.png";
 import sugar from "./Assets/Images/image 18.png";
+import camera from "./Assets/Images/—Pngtree—dslr camera_5634385 1.png";
+import cooker from "./Assets/Images/image 4.png";
+import mahince from "./Assets/Images/image 5.png";
+import bed from "./Assets/Images/image 32.png";
+import set from "./Assets/Images/image-removebg-preview (1) 1.png";
+import setup from "./Assets/Images/Rectangle 44.png";
+import iphone from "./Assets/Images/image 1.png";
+import net from "./Assets/Images/image 3.png"
+import bicucle from "./Assets/Images/image 13.png";
 
 
-function Home () {
+ 
+
+function Home () 
+{
+
   return (
 
     <div className="MainContainer">
@@ -36,43 +50,49 @@ function Home () {
         </div>
         </div>
 
-        <input
-          placeholder="Search Product,Branchs and More..."
+        <input 
+        placeholder="Search..."
           className="SearchBar"
         />
-        <Link to="/login">here</Link>
+        <Link to="/login" className="Login">Login</Link>
           
       </div>
       <div className="SecondContainer">
         <div className="tsi-1">
           <img src={star} className="tex1-image" />
-          <div className="text1">Top Offers</div>
+          <Link to="/path" className="text1">Top Offers</Link>
         </div>
 
         <div className="tsi-2">
           <img src={food} className="tex2-image" />
-          <div className="text1">Grocery</div>
+          <Link to="/path" className="text1">Child</Link>
         </div>
 
         <div className="tsi-3">
           <img src={mobile} className="tex3-image" />
-          <div className="text3">Mobiles</div>
+          <Link to="/path" className="text1">Mobiles</Link>
         </div>
 
         <div className="tsi-4">
           <img src={home} className="tex4-image" />
-          <div className="text4">Home</div>
+          <Link to="/path" className="text1">Home</Link>
         </div>
 
         <div className="tsi-5">
           <img src={elct} className="tex4-image" />
-          <div className="text4">Fashion</div>
+          <Link to="/path" className="text1">Fashion</Link>
         </div>
       </div>
       <div className="thirdContainer">
-        <div className="inner1-container"></div>
-        <div className="InnerLarge-container"></div>
-        <div className="inner2-container"></div>
+        <div className="inner1-container">
+        <img src={iphone} className="box-Image14"></img>
+        </div>
+        <div className="InnerLarge-container">
+        <img src={bicucle} className="box-Image13"></img>
+        </div>
+        <div className="inner2-container">
+        <img src={net} className="box-Image150"></img>
+        </div>
       </div>
       <div className="FourthContainer">
        {/* <p className="Fourthcontainer-Heading">Featured Prdouct</p>*/}

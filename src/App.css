@@ -79,6 +79,14 @@
     margin-top: 0.9rem;
     justify-content: space-evenly;
 }
+.text1{
+  text-decoration: none;
+}
+.Login {
+  text-decoration: none;
+  margin-top: 1%;
+  margin-left: 1%;
+}
 .thirdContainer {
   display: grid;
  
@@ -111,6 +119,28 @@ grid-template-columns: 50rem 50rem;
   margin-top: 1rem;
   margin-right:16rem;
 }
+.box-Image13 {
+  width: 593px; /* Make the image fill the container horizontally */
+  height: 300px;
+  margin-top:6%;
+  margin-left: 24%;
+   /* Make the image fill the container vertically */
+ 
+}
+.box-Image14 {
+  width: 200px; /* Make the image fill the container horizontally */
+  height: 160px;
+  margin-left: 47%;
+   /* Make the image fill the container vertically */
+}
+.box-Image150 {
+  width: 200px; /* Make the image fill the container horizontally */
+  height: 190px;
+  margin-left: 37.2%;
+  margin-top:-3%;
+   /* Make the image fill the container vertically */
+}
+
 .inner2-container{
   width: 20rem;
   height: 10rem;
